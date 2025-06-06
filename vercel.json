@@ -1,0 +1,6 @@
+{
+  "env": {
+    "SESSION_SECRET": "B8cxpzRHPHgGqJB0i4BXLr6Hd6St7myM",
+    "PUBLIC_STORE_DOMAIN": "https://hydrogen-shopify-one.vercel.app/"
+  }
+}
