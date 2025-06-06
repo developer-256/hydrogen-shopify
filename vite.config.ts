@@ -4,6 +4,7 @@ import {oxygen} from '@shopify/mini-oxygen/vite';
 import {reactRouter} from '@react-router/dev/vite';
 import tsconfigPaths from 'vite-tsconfig-paths';
 import tailwindcss from '@tailwindcss/vite';
+import vercel from 'vite-plugin-vercel';
 
 export default defineConfig({
   plugins: [
@@ -12,6 +13,7 @@ export default defineConfig({
     oxygen(),
     reactRouter(),
     tsconfigPaths(),
+    vercel(),
   ],
   build: {
     // Allow a strict Content-Security-Policy
